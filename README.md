@@ -32,3 +32,16 @@
 - ES Module
 - - 面向浏览器，属于当前浏览器默认标准
 - - 静态编译，编译时就能确定依赖关系
+
+### 2022/12/30
+
+> medium-iterator-generator
+
+- Iterator 的作用
+- Symbol.iterator 是一个接口，用于生成 Iterator
+- Generator 的作用
+- Generator 的用法
+- - 1. 函数前面加星号
+- - 2. yield 关键字控制流程
+- Generator 实现状态机
+- Generator 实现异步代码
