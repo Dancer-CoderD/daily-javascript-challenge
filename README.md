@@ -51,7 +51,16 @@
 > medium-async-await
 
 - async/await 是 Generator 的一个语法糖，帮我们自动进行 Generator 的流程控制。
-- - async 对应是 *
+- - async 对应是 \*
 - - await 对应是 yield
 - async/await 并发
 - 在同步代码里将关键并发代码以 async/await 实现
+
+### 2023/1/2
+
+> easy-map-weakmap
+
+- Map 的键可以是任意类型，WeakMap 只接收对象作为键。
+- Map 的键是跟内存地址绑定的，只要内存地址不一样，就视为两个键。
+- WeakMap 的键是弱引用，键所指的对象可以被垃圾回收。
+- Map 可以被遍历，WeakMap 不能被遍历。
