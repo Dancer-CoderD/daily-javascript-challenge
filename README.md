@@ -102,3 +102,19 @@
 - 异步编程解决方案
 - async/await 仅是 Generator 的语法糖
 - async/await、Generator 需与 Promise 搭配使用
+
+### 2023/1/6
+
+> easy-promise
+
+- const p = new Promise();
+- - p.then()
+- - p.catch()
+- - p.finally()
+- Promise()
+- - all()
+- - race()
+- - allSettled()
+- - resolve()
+- - reject()
+- - try()
