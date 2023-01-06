@@ -93,3 +93,12 @@
 - 使用场景：
 - - 集合无序，适合数组去重、求并集、交集和差集等运算；
 - - 字典有序，适合保证对象顺序的集合，例如请求状态码对象字典。
+
+### 2023/1/5
+
+> easy-generator
+
+- 理解 Generator
+- 异步编程解决方案
+- async/await 仅是 Generator 的语法糖
+- async/await、Generator 需与 Promise 搭配使用
