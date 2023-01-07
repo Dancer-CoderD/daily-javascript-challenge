@@ -118,3 +118,12 @@
 - - resolve()
 - - reject()
 - - try()
+
+### 2023/1/7
+
+> easy-proxy
+
+- what is meta programming
+- easy proxy
+- use Reflect to proxy
+- position
