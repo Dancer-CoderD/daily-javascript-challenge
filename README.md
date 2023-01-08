@@ -127,3 +127,14 @@
 - easy proxy
 - use Reflect to proxy
 - position
+
+### 2023/1/8
+
+> medium-new-generate
+
+- what is new
+- new process
+- - 1. create a new Object
+- - 2. connect object's **proto** and Constructor's prototype
+- - 3. binding Constructor's this to object
+- - 4. condition Constructor's return type.If it's primitive that will be ignored.Else is Object, it will be used.
