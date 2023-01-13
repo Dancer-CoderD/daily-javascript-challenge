@@ -138,3 +138,16 @@
 - - 2. connect object's **proto** and Constructor's prototype
 - - 3. binding Constructor's this to object
 - - 4. condition Constructor's return type.If it's primitive that will be ignored.Else is Object, it will be used.
+
+### 2023/1/9
+
+> easy-javascript-precompile
+
+- JavaScript 是一门解释型语言，因此其从编译到执行分为 4 个阶段：
+- - 1. 词法分析；
+- - 2. 语法分析，检查代码语法是否错误，同时构建抽象语法树；
+- - 3. 预编译；
+- - 4. 解释执行。
+
+- 预编译分为全局预编译和函数预编译
+- 分别为 script 代码开始前进行和函数执行前进行预编译
