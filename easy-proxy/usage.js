@@ -5,7 +5,7 @@
  * 使用 Proxy 保障数据类型的准确性。
  *
  */
-const numericDataStore = {
+let numericDataStore = {
   count: 0,
   amount: 1234,
   total: 14,
@@ -31,7 +31,7 @@ numericDataStore.count = 333;
  * 声明了一个私有的 apiKey，便于 api 这个对象内部的方法调用，但不希望从外部也能够访问。
  *
  */
-const api = {
+let api = {
   _apiKey: "123abc456def",
   getUsers: function () {},
   getUser: function (userId) {},
